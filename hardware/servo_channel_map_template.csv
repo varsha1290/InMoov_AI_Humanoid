@@ -1,0 +1,9 @@
+joint_name,module,servo_model,pca_board_address,pca_channel,enabled,min_pulse_us,center_pulse_us,max_pulse_us,min_angle_deg,center_angle_deg,max_angle_deg,reversed,measured_supply_voltage,notes
+neck_pan,head,MG996R,0x40,0,false,,,,,,,,,Example row only
+neck_tilt,head,MG996R,0x40,1,false,,,,,,,,,Example row only
+jaw,jaw,MG996R,0x40,2,false,,,,,,,,,Example row only
+eye_pan,eyes,MG90S,0x40,3,false,,,,,,,,,Example row only
+eye_tilt,eyes,MG90S,0x40,4,false,,,,,,,,,Example row only
+left_hand_main,left_hand,HS-755HB,0x40,5,false,,,,,,,,,Example row only
+right_hand_main,right_hand,HS-755HB,0x40,6,false,,,,,,,,,Example row only
+finger_joint_example,left_hand,MG90S,0x40,7,false,,,,,,,,,Add rows after actual finger servo count is known

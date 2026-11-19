@@ -1,0 +1,4 @@
+# Optional audio capture/playback helpers.
+sounddevice
+soundfile
+numpy
