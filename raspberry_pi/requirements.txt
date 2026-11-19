@@ -1,3 +1,0 @@
-# Minimal common Python dependencies.
-pyserial>=3.5
-python-dotenv>=1.0

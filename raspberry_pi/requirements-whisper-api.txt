@@ -1,2 +1,0 @@
-# Hosted speech-to-text; requires OPENAI_API_KEY and internet access.
-openai>=1.0

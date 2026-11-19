@@ -1,7 +1,0 @@
-item,category,manufacturer,model,quantity,voltage,current_or_rating,interface,location,status,notes
-Main computer,Computer,Raspberry Pi,TBD,1,TBD,TBD,TBD,Main controller,To confirm,Exact Pi model unknown
-Motion controller,MCU,Espressif,ESP32,TBD,3.3V logic,TBD,USB/UART,Controller,To confirm,Exact board variant unknown
-Servo driver,Driver,Adafruit-compatible,PCA9685,TBD,Logic VCC and servo V+,TBD,I2C,Servo control,To confirm,Board count/address unknown
-Servo,Actuator,Hitec,HS-755HB,TBD,Check exact datasheet,Check exact datasheet,PWM,Hands,Known model/count unknown
-Servo,Actuator,MG996R,MG996R,TBD,Check exact unit,Check exact unit,PWM,Head/neck and jaw,Known model/count unknown
-Servo,Actuator,TowerPro-compatible,MG90S,TBD,Check exact unit,Check exact unit,PWM,Eyes and fingers,Known model/count unknown
