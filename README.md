@@ -76,8 +76,8 @@ The diagram describes the intended architecture, not a claim that every connecti
 
 The following component models and roles have been identified from the project information available so far.
 
-| Component | Identified model / type | Intended use | Notes |
-|---|---|---|---|
+| Component | Identified model / type | Intended use |
+|---|---|---|
 | Main computer | Raspberry Pi | AI and high-level control | Exact Pi model and OS need confirmation |
 | Microcontroller | ESP32 | Low-level control | Exact board variant needs confirmation |
 | PWM driver | PCA9685 | Servo PWM generation | Board count, I2C address and wiring need confirmation |
