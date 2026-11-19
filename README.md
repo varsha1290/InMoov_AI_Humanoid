@@ -19,8 +19,6 @@ The goal is to develop an interactive humanoid robot that can:
 - Drive hobby servos through a PCA9685 PWM servo driver.
 - Progress toward ROS 2 integration for modular robot control, visualization and simulation.
 
-**Current development stage:** hardware documentation and software scaffolding. The repository is not yet a complete, tested robot application.
-
 ## 2. System architecture
 
 The intended high-level data flow is:
@@ -311,21 +309,6 @@ No safety certification or full hardware validation is claimed.
 | 9. Robot behavior | Add safe, allowlisted movement commands | Repeatable joint and behavior tests |
 | 10. ROS 2 | Create measured robot description and control integration | RViz/ROS 2 validation |
 | 11. Full-system testing | Test faults, resets, communication and power behavior | Documented test report |
-
-## 13. Current limitations — read before using
-
-At the time of this README update:
-
-- The repository is a reconstructed starter project, not the original complete source-code backup.
-- The ESP32 code is a scaffold and has not been confirmed as compiled or tested on the physical robot.
-- The example servo map is illustrative; exact servo counts and channels are unknown.
-- The Raspberry Pi application is a placeholder.
-- Whisper, Gemini and Nova integrations are not yet complete.
-- Final ROS 2 URDF/Xacro, simulation and hardware-interface packages are not yet present.
-- Original assembly image files still need to be committed under `docs/images/`; the documentation currently describes the photographs but does not itself contain the image files.
-- No complete wiring diagram, electrical validation, mechanical validation or safety certification is claimed.
-
-These limitations are intentional and documented so that future development can proceed from verified information rather than guessed values.
 
 ## 14. Contributing and updating the project
 
