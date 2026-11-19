@@ -76,7 +76,7 @@ The diagram describes the intended architecture, not a claim that every connecti
 
 The following component models and roles have been identified from the project information available so far.
 
-| Component | Identified model / type | Intended use | Status / notes |
+| Component | Identified model / type | Intended use | Notes |
 |---|---|---|---|
 | Main computer | Raspberry Pi | AI and high-level control | Exact Pi model and OS need confirmation |
 | Microcontroller | ESP32 | Low-level control | Exact board variant needs confirmation |
@@ -93,16 +93,16 @@ See [docs/hardware_inventory.md](docs/hardware_inventory.md) and the templates i
 
 ## 4. Software and AI components
 
-| Software / service | Planned role | Current status |
-|---|---|---|
-| Python | Raspberry Pi application and integration | Starter entry point only |
-| Whisper | Speech-to-text | Provider and local/API mode still to be selected and integrated |
-| Gemini API | AI response generation | Integration not yet implemented |
-| Nova voice | Text-to-speech output | Exact provider, endpoint and model need confirmation |
-| ESP32 Arduino framework | Microcontroller firmware | Starter firmware scaffold |
-| PlatformIO | ESP32 project build environment | Configuration file included |
-| Adafruit PCA9685 library | PWM driver interface | Declared in PlatformIO configuration |
-| ROS 2 | Future robot middleware | Integration plan only; final packages not yet included |
+| Software / service | Planned role |
+|---|---|
+| Python | Raspberry Pi application and integration |
+| Whisper | Speech-to-text |
+| Gemini API | AI response generation |
+| Nova voice | Text-to-speech output |
+| ESP32 Arduino framework | Microcontroller firmware |
+| PlatformIO | ESP32 project build environment |
+| Adafruit PCA9685 library | PWM driver interface |
+| ROS 2 | Future robot middleware |
 
 ### Python dependency groups
 
